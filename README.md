@@ -1,8 +1,10 @@
 ################ Java 7 or above is required #################
 
-To Run the Peer we should pass ID as the argument
+To Run the Peer we should pass ID as the argument(ID's can start from 0)
 
 Example - java Server 0
+
+Each server will have dedicated ports and their data is in the file (./meta/ports.txt)
 
 Inorder to run multiple peers concurrently we should replicate all the files to a seperate directory and should start Server from there.
 
@@ -13,17 +15,17 @@ Click on Register
 Provide username and password
 
 Returning user -
-Click on Login
+Select Login
 Provide username and password
 
-Upon user registration/Login - select the functionality to play
+Upon user registration/Login - select the functionality to access the file system
 
 While granting the permission for user we have (Owner-Read-Write)
 
 0 - False
 1 - True
 
-For example if user wanted to grant Read and write permissions it will be -- (011)
+For example if user wanted to grant Read and write permissions it will be -- (011). If user want to grant Owner, Read and write permissions it will be (111)
 
 Permission for the user 
 
