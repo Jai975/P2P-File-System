@@ -4,7 +4,7 @@ To Run the Peer we should pass ID as the argument
 
 Example - java Server 0
 
-Inorder to run multiple peers concurrentlt we should replicate all the files to a seperate directory and should start Server from there.
+Inorder to run multiple peers concurrently we should replicate all the files to a seperate directory and should start Server from there.
 
 Upon starting the server Login and Register options will be displayed
 
